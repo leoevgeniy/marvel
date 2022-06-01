@@ -1,4 +1,5 @@
 import { Component } from "react";
+import PropTypes from 'prop-types';
 import AppHeader from "../appHeader/AppHeader";
 import ErrorBoundary from "../errorBoundary/ErrorBoundary";
 import RandomChar from "../randomChar/RandomChar";
@@ -40,6 +41,9 @@ class App extends Component {
         )
     }
 
+}
+CharInfo.propTypes = {
+    onCharSelected: PropTypes.func
 }
 
 export default App;
