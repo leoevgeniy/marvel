@@ -14,6 +14,7 @@ const CharInfo = (props) => {
 
     useEffect(() => {
         updateChar()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [props.charID])
 
     const onCharLoaded = (char) => {

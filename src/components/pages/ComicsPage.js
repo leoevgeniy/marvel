@@ -6,8 +6,8 @@ const ComicsPage = () => {
 
     return (
         <>
-        <AppBanner/>
-        <ComicsList/>
+            <AppBanner/>
+            <ComicsList/>
         </>
     )
 }
